@@ -1,4 +1,4 @@
-
+ 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -23,7 +23,20 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
+.account-btn {
+  background-color: #19223580;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
 
+.account-btn:hover {
+  background-color: #ff5722; /* Màu cam khi di chuột */
+}
 /* Tiêu đề chính */
 h1 {
   font-size: 2.5em;
